@@ -1,0 +1,38 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.7;
+}
+
+::-moz-selection {
+    background: #ffecec;
+    color: #ef1f25;
+    text-shadow: none;
+}
+
+::selection {
+    background: #ffecec;
+    color: #ef1f25;
+    text-shadow: none;
+}
+
+body {
+    font: 16px/26px "Arial", sans-serif;
+    letter-spacing: 0.1em;
+}
+.wrapper {
+    padding: 20px;
+    margin: 0 auto;
+}
+h1 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: normal;
+}
