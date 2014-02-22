@@ -83,7 +83,7 @@ $(function() {
 
 //TOP PHOTO CHANGER// 
 $(function() {
- var images = ['b.jpg','c.gif','d.jpg','e.jpg','h.jpg' ];
+ var images = ['b.jpg','d.jpg','e.jpg','h.jpg' ];
  $('#top').css({'background-image': 'url(img/' + images[Math.floor(Math.random() * images.length)] + ')'});
 });
 
