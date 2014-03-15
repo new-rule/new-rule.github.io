@@ -346,7 +346,7 @@ background:#000;
 text-align: right;
 line-height: 1.5em;
 margin:0 0 2px;
-padding: 0.8em 1em;
+padding: 0.8em 1em 0.8em 0;
 }
 #l-top p a{
 text-decoration: underline;
@@ -357,8 +357,7 @@ text-decoration: line-through;
 #l-top p.more {
 font-size:0.9em;
 line-height: 1.5em;
-padding-top: 0;
-padding-bottom: 1.5em;
+padding: 0 1.3em 1.5em 0;
 }
 #l-top .title{
 font-size: 1.3em;
