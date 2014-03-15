@@ -1,11 +1,7 @@
 jQuery.noConflict(); var $ = jQuery;
 
 $(function() {
-$("#top").delay(800).fadeTo(400,1,function(){
-		$("#r-bottom").delay(200).fadeTo(400,1);
-});	
-
-// FIXED NAVIGATION //
+//FIXED NAVI//
 $(function() {
         $('.fixed-nav').waypoint('sticky');
     });
@@ -25,66 +21,43 @@ $(function() {
        });
     });
 
-// COLOR CHANGER //
+//TOP PHOTO// 
 $(function() {
-        $('.page').waypoint(function (direction) {
-            if (direction === 'down') {
-                if ($(this).hasClass('green')) {
-
-                    $('#fixed a').css({
-                        'color' : '#b1feb1'
-                    });
-                }
-                if ($(this).hasClass('red')) {
-
-                    $('#fixed a').css({
-                        'color' : '#fecaca'
-                    });
-
-                }
-                if ($(this).hasClass('blue')) {
-
-                    $('#fixed a').css({
-                        'color' : '#b4e7ff'
-                    });
-                }
-            }
-
-        });
-        // Change going up 
-        $('.page').waypoint(function (direction) {
-            // var pageHeight  =  parseInt($(this).height(), 10) + 'px';
-            if (direction === 'up') {
-                if ($(this).hasClass('green, active')) {
-
-                    $('#fixed a').css({
-                        'color' : '#b1feb1'
-                    });
-                }
-                if ($(this).hasClass('red')) {
-
-                    $('#fixed a').css({
-                        'color' : '#fecaca'
-                    });
-                }
-                if ($(this).hasClass('blue')) {
-
-                    $('#fixed a').css({
-                        'color' : '#b4e7ff'
-                    });
-                }
-            }
-
-        }, {
-
-            'offset' : '-600px'
-        });
+ var images = ['../img/top/goal-1.gif','../img/top/goal-2.gif','../img/top/goal-3.gif'];
+ $('#i-4').css({'background-image': 'url(img/' + images[Math.floor(Math.random() * images.length)] + ')'});
 });
 
-//TOP PHOTO CHANGER// 
+//TOGGLE// 
 $(function() {
- var images = ['b.jpg','d.jpg','e.jpg','h.jpg' ];
- $('#top').css({'background-image': 'url(img/' + images[Math.floor(Math.random() * images.length)] + ')'});
+	$(".selector-btn a").click(function(){
+		var tgt = $(this).parent().parent().find(".selector-more");
+		
+		tgt.slideToggle(600);
+		return false;
+	});
+	$("body").data('lng','j');
+})
+
+
+//LANGUAGE//
+$(function() {
+	$("body").data('lng','j');
+})
+
+$("#lng a").click(function(){
+			$("body").animate({opacity:0},function(){
+				if($(this).data('lng')=="j"){
+					$(".j").hide();
+					$(".e").show();
+					$(this).data('lng','e');			
+				}else{
+					$(".e").hide();
+					$(".j").show();										
+					$(this).data('lng','j');			
+				}
+				$(this).animate({opacity:1});
+			});			
+	return false;
 });
 
 })
