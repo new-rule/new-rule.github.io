@@ -231,6 +231,10 @@ color: #fff;
 background-color: #000;
 color: #fff;
 }
+#cnt{
+background-color: #000;
+color: #fff;
+}
 #contact{
 background-color: #000;
 padding-bottom: 1.7em;
@@ -246,6 +250,17 @@ text-decoration: underline;
 }
 #about p a:hover{
 text-decoration: line-through;
+}
+/*SECTION ABOUT*/
+#cnt p{
+font-size: 1.7em;
+margin: 0;
+}
+#cnt .box{
+	margin-bottom: 0.4em;
+}
+#cnt .s{
+font-size: 0.7em;
 }
 
 /*SECTION ARCHIVE*/
