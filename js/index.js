@@ -61,4 +61,3 @@ $("#lng a").click(function(){
 });
 
 })
-

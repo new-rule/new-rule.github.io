@@ -402,6 +402,14 @@ position:absolute;
 bottom:1.5em;
 right:1.5em;
 }
+#down{
+color: white;
+font-size: 7em;
+display: block;
+position:absolute;
+right:25%;
+bottom:15%;
+}
 .fb{
 float: left;
 }
