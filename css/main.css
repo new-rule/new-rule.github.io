@@ -253,14 +253,20 @@ text-decoration: line-through;
 }
 /*SECTION ABOUT*/
 #cnt p{
-font-size: 1.7em;
+font-size: 1em;
 margin: 0;
 }
+#cnt .love{
+font-size:1.1em;
+line-height:2em;
+padding:0;
+margin:1.7em 0;
+}
 #cnt .box{
-	margin-bottom: 0.4em;
+margin-bottom: 0.4em;
 }
 #cnt .s{
-font-size: 0.7em;
+font-size: 0.5em;
 }
 
 /*SECTION ARCHIVE*/
