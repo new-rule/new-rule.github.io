@@ -345,7 +345,7 @@ padding-top:10px;
 margin: 0;
 }
 .logotype{
-height: 220px;
+height: 210px;
 background-image: url(../img/log.svg);
 background-repeat: no-repeat;
 background-size: contain;
@@ -353,13 +353,13 @@ background-position-x: right;
 background-position-y: top;
 }
 .logopad{
-padding-top: 60px;
+padding-top: 105px;
 }
 #contact .box p{
 font-size: 1em;
 color: white;
 margin: 0;
-text-align: justify;
+text-align: left;
 line-height: 1.45em;
 }
 #contact .box p a{
