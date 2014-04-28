@@ -236,9 +236,9 @@ background-color: #000;
 color: #fff;
 }
 #contact{
-background-color: #000;
-padding-bottom: 1.7em;
+padding-bottom: 3.4em;
 padding-top: 3.4em;
+position: relative;
 }
 
 /*SECTION ABOUT*/
@@ -336,16 +336,34 @@ text-decoration: line-through;
 }
 
 /*SECTION CONTACT*/
+#contact .box img{
+height: 100%;
+float:left;
+padding-top:10px;
+}
+#contact .box {
+margin: 0;
+}
+.logotype{
+height: 220px;
+background-image: url(../img/log.svg);
+background-repeat: no-repeat;
+background-size: contain;
+background-position-x: right;
+background-position-y: top;
+}
+.logopad{
+padding-top: 60px;
+}
 #contact .box p{
 font-size: 1em;
 color: white;
 margin: 0;
 text-align: justify;
-line-height: 1.7em;
+line-height: 1.45em;
 }
 #contact .box p a{
-border-bottom: 3px solid;
-padding-bottom: 2px;
+border-bottom: 2px solid;
 }
 #contact .box p a:hover{
 border-bottom: 3px solid black;
