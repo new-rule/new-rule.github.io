@@ -216,8 +216,8 @@ padding: 1em 100px 1em 1em;
 line-height: 2em;
 }
 #player{
-background-color: #ffecec;
-color: #ef1f25;
+background-color: #000;
+color: #fff;
 }
 #category{
 background-color: #ecffec;
@@ -251,7 +251,7 @@ text-decoration: underline;
 #about p a:hover{
 text-decoration: line-through;
 }
-/*SECTION ABOUT*/
+/*SECTION CONTRIBUTORS*/
 #cnt p{
 font-size: 1em;
 margin: 0;
@@ -282,6 +282,53 @@ margin-top: 0.5em;
 #archive .box p{
 font-size: 0.9em;
 text-align: left;
+}
+/*SECTION PLAYER*/
+#player img{
+/*box-shadow: 8px 8px 0px #fff;
+border: 3px solid #000;*/
+width: 100%;
+}
+#player .box{
+text-align: left;
+padding: 0 0.9em 0 0;
+margin-bottom: 5em;
+}
+#player .box p{
+font-size:0.8em;
+line-height:1.5em;
+margin: 1em 0 1.75em;
+}
+#player .selector-btn{
+text-align: left;
+font-size: 1.1em;
+margin-top: 1em;
+}
+#player .selector-btn a{
+text-decoration: underline;
+}
+#player .selector-btn a:hover{
+text-decoration: line-through;
+}
+#player p.no{
+font-size:0.75em;
+margin: 0;
+}
+#player p.na{
+font-size:0.7em;
+margin-top: 0.4em;
+margin-bottom: 0;
+}
+#player p.link{
+font-size:0.75em;
+line-height: 1.5em;
+margin: 0;
+}
+#player p.link a{
+text-decoration: underline;
+}
+#player p.link a:hover{
+text-decoration: line-through;
 }
 
 /*SECTION pickup*/
@@ -447,6 +494,16 @@ display: none;
 /*MORE*/
 .selector-more {
 display: none;
+}
+
+/*WEB FONT*/
+@font-face {
+  font-family: "Executive";
+  src: url("http://typefront.com/fonts/825592209.eot");
+  src: local("☺"),
+       url("http://typefront.com/fonts/825592209.woff") format("woff"),
+       url("http://typefront.com/fonts/825592209.ttf") format("truetype"),
+       url("http://typefront.com/fonts/825592209.svg") format("svg");
 }
 
 /*MEDIA*/
