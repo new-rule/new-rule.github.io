@@ -231,6 +231,10 @@ color: #fff;
 background-color: #000;
 color: #fff;
 }
+#credit{
+background-color: #000;
+color: #fff;
+}
 #cnt{
 background-color: #000;
 color: #fff;
@@ -285,8 +289,6 @@ text-align: left;
 }
 /*SECTION PLAYER*/
 #player img{
-/*box-shadow: 8px 8px 0px #fff;
-border: 3px solid #000;*/
 width: 100%;
 }
 #player .box{
@@ -382,6 +384,10 @@ text-decoration: underline;
 text-decoration: line-through;
 }
 
+/*SECTION CREDIT*/
+#credit .500{
+max-width: 500px;
+}
 /*SECTION CONTACT*/
 #contact .box img{
 height: 100%;
