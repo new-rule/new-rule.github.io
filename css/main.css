@@ -385,8 +385,13 @@ text-decoration: line-through;
 }
 
 /*SECTION CREDIT*/
-#credit .500{
-max-width: 500px;
+#credit .wide{
+
+padding-right: 25%;
+padding-left: 25%;
+	font-size: 1em;
+	line-height: 2em;
+	text-align: justify;
 }
 /*SECTION CONTACT*/
 #contact .box img{
