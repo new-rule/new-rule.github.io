@@ -9,8 +9,8 @@ $(function(){
 });
 
 $(window).bind("load",function(){
-	$("#l-top").fadeIn(500);
-	$("#down").fadeIn(500);
+	$("#l-top").fadeIn(1000);
+	$("#down").fadeIn(1000);
 });
 
 //FIXED NAVI//
