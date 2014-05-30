@@ -1,6 +1,18 @@
 jQuery.noConflict(); var $ = jQuery;
 
 $(function() {
+
+//FADEIN//
+$(function(){
+	$("#l-top").css("display","none");
+	$("#down").css("display","none");
+});
+
+$(window).bind("load",function(){
+	$("#l-top").fadeIn(8000);
+	$("#down").fadeIn(8000);
+});
+
 //FIXED NAVI//
 $(function() {
         $('.fixed-nav').waypoint('sticky');
