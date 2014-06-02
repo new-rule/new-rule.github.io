@@ -13,7 +13,14 @@ font-weight:inherit;
 font-style:inherit;
 font-size:100%;
 font-family:inherit;
-vertical-align:baseline
+vertical-align:baseline;
+}
+
+li.tumblr_post{
+list-style: none;
+}
+#photoset{
+	width: 100%;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{
@@ -259,7 +266,6 @@ position: relative;
 text-align: left;
 font-size: 1em;
 }
-
 #timeline img{
 width: 100%;
 margin-top: 0.2em;
