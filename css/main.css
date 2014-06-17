@@ -468,17 +468,6 @@ padding-top:10px;
 #contact .box {
 margin: 0;
 }
-.logotype{
-height: 210px;
-background-image: url(../img/log.svg);
-background-repeat: no-repeat;
-background-size: contain;
-background-position-x: right;
-background-position-y: top;
-}
-.logopad{
-padding-top: 105px;
-}
 #contact .box p{
 font-size: 1em;
 color: white;
@@ -493,7 +482,10 @@ border-bottom: 2px solid;
 border-bottom: 3px solid black;
 padding-bottom: 3px;
 }
-
+.min{
+max-width: 720px;
+margin: 0 auto;
+}
 /*INDICATOR*/
 #l-top{
 position:absolute;
